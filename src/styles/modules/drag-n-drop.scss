@@ -1,0 +1,13 @@
+.drag-n-drop {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  
+  &__flow {
+    flex: 0 1 70%;
+  }
+
+  &__aside {
+    flex: 0 1 30%;
+  }
+}

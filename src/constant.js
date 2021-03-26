@@ -1,0 +1,1 @@
+export const APPLICATION_REACT_FLOW = 'application/reactflow'

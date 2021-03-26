@@ -1,0 +1,17 @@
+// BODY
+$main-ff: '';
+$main-fz: 16px;
+
+// CONTAINER
+$container-max-width: 1920px;
+$container-pd: 0;
+
+// COLORS
+$white: #fff;
+$gray: #f3f3f3;
+$dark-gray: darken($gray, 3%);
+
+$aside: $gray;
+$aside-list-item: $white;
+
+$flow-bg: $dark-gray;

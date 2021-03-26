@@ -1,0 +1,11 @@
+$size: 1em;
+$big-size: $size;
+$max: $size * 0.1;
+
+.flow {
+  background: radial-gradient(circle, $white $max, $flow-bg $max * 1.3) 0 0,
+    radial-gradient(circle, $white $max, $flow-bg $max * 1.3) $size $size;
+  background-size: $big-size $big-size;
+  background-color: $flow-bg;
+  background-repeat: repeat;
+}
