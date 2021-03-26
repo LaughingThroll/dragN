@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/LaughingThroll/dragN/static/css/main.7ed62c7f.chunk.css",
-    "main.js": "/LaughingThroll/dragN/static/js/main.2bf537d7.chunk.js",
-    "main.js.map": "/LaughingThroll/dragN/static/js/main.2bf537d7.chunk.js.map",
-    "runtime-main.js": "/LaughingThroll/dragN/static/js/runtime-main.680c5f12.js",
-    "runtime-main.js.map": "/LaughingThroll/dragN/static/js/runtime-main.680c5f12.js.map",
-    "static/js/2.9b610599.chunk.js": "/LaughingThroll/dragN/static/js/2.9b610599.chunk.js",
-    "static/js/2.9b610599.chunk.js.map": "/LaughingThroll/dragN/static/js/2.9b610599.chunk.js.map",
-    "index.html": "/LaughingThroll/dragN/index.html",
-    "static/css/main.7ed62c7f.chunk.css.map": "/LaughingThroll/dragN/static/css/main.7ed62c7f.chunk.css.map",
-    "static/js/2.9b610599.chunk.js.LICENSE.txt": "/LaughingThroll/dragN/static/js/2.9b610599.chunk.js.LICENSE.txt"
+    "main.css": "/dragN/static/css/main.7ed62c7f.chunk.css",
+    "main.js": "/dragN/static/js/main.2bf537d7.chunk.js",
+    "main.js.map": "/dragN/static/js/main.2bf537d7.chunk.js.map",
+    "runtime-main.js": "/dragN/static/js/runtime-main.0a2546bd.js",
+    "runtime-main.js.map": "/dragN/static/js/runtime-main.0a2546bd.js.map",
+    "static/js/2.9b610599.chunk.js": "/dragN/static/js/2.9b610599.chunk.js",
+    "static/js/2.9b610599.chunk.js.map": "/dragN/static/js/2.9b610599.chunk.js.map",
+    "index.html": "/dragN/index.html",
+    "static/css/main.7ed62c7f.chunk.css.map": "/dragN/static/css/main.7ed62c7f.chunk.css.map",
+    "static/js/2.9b610599.chunk.js.LICENSE.txt": "/dragN/static/js/2.9b610599.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.680c5f12.js",
+    "static/js/runtime-main.0a2546bd.js",
     "static/js/2.9b610599.chunk.js",
     "static/css/main.7ed62c7f.chunk.css",
     "static/js/main.2bf537d7.chunk.js"
