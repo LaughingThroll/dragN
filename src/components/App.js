@@ -9,6 +9,8 @@ import data from './../api/db'
 
 const App = () => {
   const [items, setItems] = useState([])
+  const [currentItem, setCurrentItem] = useState(null)
+
 
   useEffect(() => {
     setItems(data)
@@ -18,8 +20,8 @@ const App = () => {
     <div className="container-fluid">
       <div className="drag-n-drop">
         <ReactFlowProvider>
-          <Sidebar data={items} />
-          <FlowWrapper data={items} />
+          <Sidebar data={items} setCurrentItem={setCurrentItem} />
+          <FlowWrapper currentItem={currentItem} />
         </ReactFlowProvider>
       </div>
     </div>

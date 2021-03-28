@@ -3,7 +3,7 @@ import ReactFlow, { addEdge, removeElements } from 'react-flow-renderer'
 
 import { APPLICATION_REACT_FLOW } from './../constant' 
 
-const FlowWrapper = ({ data }) => {
+const FlowWrapper = ({ currentItem }) => {
   const flowRef = useRef(null)
 
   const [elementsFlow, setElementsFlow] = useState([])
@@ -35,15 +35,13 @@ const FlowWrapper = ({ data }) => {
       y: e.clientY - reactFlowBounds.top
     })
 
-    // TODO transfer real data normal from sidebar 
-    // incorrect data.find(el => el.lang === type)?.name
     const newElementFlow = {
       id: Date.now().toString(),
       type,
       position,
       data: {
         label: (
-          <h1> {data.find(el => el.lang === type)?.name} World !!!</h1>
+          <h1> {currentItem.name} World !!!</h1>
         )
       }
     }
