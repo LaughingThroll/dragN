@@ -14,7 +14,7 @@ const Sidebar = ({ data, setCurrentItem }) => {
       <ul className="aside-list">
         {data.map(el => {
           return <li key={el.id} className="aside-list__item" onDragStart={(e) => onDragStartHandler(e, REACT_FLOW_NODE_TYPE.DEFAULT, el)} draggable >
-            {el.name}
+            {el.title}
           </li>
         })}
       </ul>

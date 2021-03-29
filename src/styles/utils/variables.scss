@@ -8,6 +8,7 @@ $container-pd: 0;
 
 // COLORS
 $white: #fff;
+$black: #000;
 $gray: #f3f3f3;
 $dark-gray: darken($gray, 3%);
 
@@ -15,3 +16,4 @@ $aside: $gray;
 $aside-list-item: $white;
 
 $flow-bg: $dark-gray;
+$flow-lines: $black;

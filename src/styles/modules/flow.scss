@@ -3,9 +3,26 @@ $big-size: $size;
 $max: $size * 0.1;
 
 .flow {
+  position: relative;
   background: radial-gradient(circle, $white $max, $flow-bg $max * 1.3) 0 0,
     radial-gradient(circle, $white $max, $flow-bg $max * 1.3) $size $size;
   background-size: $big-size $big-size;
   background-color: $flow-bg;
   background-repeat: repeat;
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    border-left: 1px dashed $flow-lines;
+  }
+
+  &::before {
+    left: 33%;
+  }
+  &::after {
+    right: 33%;
+  }
 }
