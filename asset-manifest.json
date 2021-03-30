@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dragN/static/css/main.abf13744.chunk.css",
+    "main.css": "/dragN/static/css/main.4d195b6c.chunk.css",
     "main.js": "/dragN/static/js/main.61fa1815.chunk.js",
     "main.js.map": "/dragN/static/js/main.61fa1815.chunk.js.map",
     "runtime-main.js": "/dragN/static/js/runtime-main.0a2546bd.js",
@@ -8,13 +8,13 @@
     "static/js/2.11ced865.chunk.js": "/dragN/static/js/2.11ced865.chunk.js",
     "static/js/2.11ced865.chunk.js.map": "/dragN/static/js/2.11ced865.chunk.js.map",
     "index.html": "/dragN/index.html",
-    "static/css/main.abf13744.chunk.css.map": "/dragN/static/css/main.abf13744.chunk.css.map",
+    "static/css/main.4d195b6c.chunk.css.map": "/dragN/static/css/main.4d195b6c.chunk.css.map",
     "static/js/2.11ced865.chunk.js.LICENSE.txt": "/dragN/static/js/2.11ced865.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0a2546bd.js",
     "static/js/2.11ced865.chunk.js",
-    "static/css/main.abf13744.chunk.css",
+    "static/css/main.4d195b6c.chunk.css",
     "static/js/main.61fa1815.chunk.js"
   ]
 }
