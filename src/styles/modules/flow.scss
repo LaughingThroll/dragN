@@ -13,16 +13,16 @@ $max: $size * 0.1;
   &::after {
     content: "";
     position: absolute;
-    top: 0;
-    width: 1px;
-    height: 100%;
-    border-left: 1px dashed $flow-lines;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    border-top: 1px dashed $flow-lines;
   }
 
   &::before {
-    left: 33%;
+    top: 33%;
   }
   &::after {
-    right: 33%;
+    bottom: 33%;
   }
 }
