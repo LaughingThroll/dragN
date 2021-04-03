@@ -12,6 +12,7 @@ const Sidebar = ({ data, setCurrentItem }) => {
   return (
     <aside className="drag-n-drop__aside aside">
       <ul className="aside-list">
+        {/* Здесь отображаеться список елементов в зависмости от пришедших данных тоже можно менять разметка может быть любая  */}
         {data.map(el => {
           return <li key={el.id} className="aside-list__item" onDragStart={(e) => onDragStartHandler(e, REACT_FLOW_NODE_TYPE.DEFAULT, el)} draggable >
             {el.title}

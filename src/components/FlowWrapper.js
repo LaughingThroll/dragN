@@ -37,18 +37,18 @@ const FlowWrapper = ({ currentItem }) => {
       y: e.clientY - reactFlowBounds.top
     })
 
-    const { src, text, title } = currentItem
 
     const newElementFlow = {
       id: Date.now().toString(),
       type,
       position,
       data: {
+        
         label: (
+          // Здесь может быть любая разметка
+          // Перейди в компонент FlowItem
           <FlowItem 
-            title={title}
-            text={text}
-            src={src}
+            {...currentItem}
           />
           
           // <h1> {currentItem.name} World !!!</h1>
